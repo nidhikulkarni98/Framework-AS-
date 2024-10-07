@@ -13,6 +13,8 @@ public class FetchingDataFromPropertiesFile {
 
 	public static void main(String[] args) throws Throwable {
 		//pulling 1
+		
+		//pushing after pulling 1
 		FileInputStream fis = new FileInputStream("E:\\nidhi\\Documents\\CommonData.properties");
 		Properties pro = new Properties();
 		pro.load(fis);
