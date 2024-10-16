@@ -73,17 +73,17 @@ public class BaseClass {
 		File_utility fil = new File_utility();
 		
 		//reading from property file
-//		String URL = fil.getKeyandValuePair("url");
-//		
-//		String USERNAME = fil.getKeyandValuePair("username");
-//		String PASSWORD = fil.getKeyandValuePair("password");
+	String URL = fil.getKeyandValuePair("url");
+		
+		String USERNAME = fil.getKeyandValuePair("username");
+		String PASSWORD = fil.getKeyandValuePair("password");
 		
 		
 		//reading from command prompt for maven execution
-		String URL = System.getProperty("url");
+		/*String URL = System.getProperty("url");
 		
 		String USERNAME = System.getProperty("username");
-		String PASSWORD =  System.getProperty("password");
+		String PASSWORD =  System.getProperty("password");*/
 		
 		driver.get(URL);
 		
